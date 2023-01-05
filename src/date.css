@@ -1,0 +1,28 @@
+.page{
+  display: flex;
+  flex-direction: row;
+}
+
+.whole{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.date{
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+  max-width: 165px;
+}
+
+.btn{
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+  width: 25px;
+}
+
+.btn:hover{
+  color: red;
+  background-color: #ffbdad;
+  border-color: #ffbdad;
+}
