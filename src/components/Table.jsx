@@ -67,6 +67,7 @@ const sorting = (col) => {
         displayData.map((e,i)=>{
         return (
           <tr key={i}>
+          {/* <td>{(( page - 1 ) * itemPerPage ) + ( i + 1 )}</td> */}
           <td>{e.category}</td>
           <td>{e.title}</td>
           <td>{e.price}</td>
